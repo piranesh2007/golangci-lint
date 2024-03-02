@@ -230,6 +230,10 @@ func (m *Manager) GetAllSupportedLinterConfigs() []*linter.Config {
 		if stylecheckCfg.GoVersion != "" {
 			stylecheckCfg.GoVersion = trimGoVersion(m.cfg.Run.Go)
 		}
+
+		if goheaderCfg != nil {
+			goheaderCfg.LintConfigDir = m.cfg.GetConfigDir()
+		}
 	}
 
 	const megacheckName = "megacheck"
