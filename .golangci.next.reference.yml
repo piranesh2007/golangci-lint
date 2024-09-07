@@ -2691,6 +2691,7 @@ linters:
     - reassign
     - revive
     - rowserrcheck
+    - scancheck
     - sloglint
     - spancheck
     - sqlclosecheck
@@ -2806,6 +2807,7 @@ linters:
     - reassign
     - revive
     - rowserrcheck
+    - scancheck
     - sloglint
     - spancheck
     - sqlclosecheck
