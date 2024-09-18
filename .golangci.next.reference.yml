@@ -1222,6 +1222,21 @@ linters-settings:
     # Default: false
     var-require-grouping: true
 
+  iface:
+    # By default, set to empty.
+    # Empty means that all analyzers are enabled.
+    # Default: []
+    enable:
+      - unused
+      - identical
+      - opaque
+    settings:
+      unused:
+        # List of packages path to exclude from the check.
+        # Default: []
+        exclude:
+          - github.com/example/log
+
   importas:
     # Do not allow unaliased imports of aliased packages.
     # Default: false
@@ -2659,6 +2674,7 @@ linters:
     - gosmopolitan
     - govet
     - grouper
+    - iface
     - importas
     - inamedparam
     - ineffassign
@@ -2775,6 +2791,7 @@ linters:
     - gosmopolitan
     - govet
     - grouper
+    - iface
     - importas
     - inamedparam
     - ineffassign
