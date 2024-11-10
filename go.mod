@@ -34,7 +34,7 @@ require (
 	github.com/curioswitch/go-reassign v0.2.0
 	github.com/daixiang0/gci v0.13.5
 	github.com/denis-tingaikin/go-header v0.5.0
-	github.com/fatih/color v1.17.0
+	github.com/fatih/color v1.18.0
 	github.com/firefart/nonamedreturns v1.0.5
 	github.com/fzipp/gocyclo v0.6.0
 	github.com/ghostiam/protogetter v0.3.8
@@ -75,7 +75,7 @@ require (
 	github.com/maratori/testpackage v1.1.1
 	github.com/matoous/godox v0.0.0-20230222163458-006bad1f9d26
 	github.com/mattn/go-colorable v0.1.13
-	github.com/mgechev/revive v1.3.9
+	github.com/mgechev/revive v1.5.0
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/mitchellh/go-ps v1.0.0
 	github.com/moricho/tparallel v0.3.2
@@ -126,7 +126,7 @@ require (
 	go-simpler.org/sloglint v0.7.2
 	go.uber.org/automaxprocs v1.5.3
 	golang.org/x/exp v0.0.0-20240909161429-701f63a606c0
-	golang.org/x/tools v0.25.0
+	golang.org/x/tools v0.26.0
 	gopkg.in/yaml.v3 v3.0.1
 	honnef.co/go/tools v0.5.1
 	mvdan.cc/gofumpt v0.7.0
@@ -161,7 +161,7 @@ require (
 	github.com/lufia/plan9stats v0.0.0-20211012122336-39d0f177ccd0 // indirect
 	github.com/magiconair/properties v1.8.6 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
-	github.com/mattn/go-runewidth v0.0.9 // indirect
+	github.com/mattn/go-runewidth v0.0.16 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.1 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/olekukonko/tablewriter v0.0.5 // indirect
@@ -176,6 +176,7 @@ require (
 	github.com/quasilyte/gogrep v0.5.0 // indirect
 	github.com/quasilyte/regex/syntax v0.0.0-20210819130434-b3f0c404a727 // indirect
 	github.com/quasilyte/stdinfo v0.0.0-20220114132959-f7386bf02567 // indirect
+	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/shoenig/go-m1cpu v0.1.6 // indirect
 	github.com/spf13/afero v1.11.0 // indirect
 	github.com/spf13/cast v1.5.0 // indirect
@@ -192,7 +193,7 @@ require (
 	golang.org/x/exp/typeparams v0.0.0-20240314144324-c7f7c6466f7f // indirect
 	golang.org/x/mod v0.21.0 // indirect
 	golang.org/x/sync v0.8.0 // indirect
-	golang.org/x/sys v0.25.0 // indirect
+	golang.org/x/sys v0.26.0 // indirect
 	golang.org/x/text v0.18.0 // indirect
 	google.golang.org/protobuf v1.34.2 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
